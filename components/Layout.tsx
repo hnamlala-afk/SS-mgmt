@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { ViewType } from '../types';
 import DashboardView from './DashboardView';
@@ -39,8 +38,9 @@ const Sidebar: React.FC<{
 
   return (
     <div className="hidden md:flex flex-col w-64 bg-church-blue-900 text-white">
-      <div className="flex items-center justify-center h-20 border-b border-church-blue-800 px-4">
-        <h1 className="text-xl font-bold tracking-tight text-center">PCI Sunday School Teachers</h1>
+      <div className="flex flex-col items-center justify-center p-4 border-b border-church-blue-800 space-y-2">
+        <img src="https://i.ibb.co/R4Vqpms1/pci-logo.png" alt="PCI Logo" className="w-16 h-16" />
+        <h1 className="text-lg font-semibold tracking-tight text-center">ITI Veng Kohhran Sunday School Zirtirtute</h1>
       </div>
       <div className="flex-1 p-4 space-y-2">
         {navItems.map((item) => (

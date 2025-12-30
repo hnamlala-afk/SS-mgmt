@@ -10,7 +10,7 @@ export enum DepartmentName {
 }
 
 export enum Role {
-  LEADER = 'Hruaitu',
+  LEADER = 'Leader',
   ASSISTANT_LEADER = 'Asst. Leader',
   SECRETARY = 'Secretary',
   TEACHER = 'Zirtirtu',
